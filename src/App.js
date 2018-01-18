@@ -13,7 +13,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    let url = "/_designs/nested_assets/new-dcc-design-nested-assets/dcc-v7-refresh-nested-assets/content-via-ajax/road-cond-temp-json"
+    let url = "https://blab.veb.co.nz/_designs/nested_assets/new-dcc-design-nested-assets/dcc-v7-refresh-nested-assets/content-via-ajax/road-cond-temp-json"
     fetch(url)
       .then((response) => response.json())
       .then((responseJson) => {
